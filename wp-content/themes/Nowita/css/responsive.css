@@ -1,0 +1,374 @@
+/*responsive*/
+
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+ 
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1024px) { 
+    .show-box{
+        height:140px; 
+    }
+    .menu ul li{
+        padding-left: 10px;
+    }
+    .w-detail .works{
+        height: 200px;
+    }
+    .over{display:none;}
+}
+ 
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+   .box{
+        float: none;
+        min-height: 140px;
+    }
+    .box2{
+        float: none;
+        min-height: 140px;
+    }
+    .box-over-lap{
+        display: none;
+    }
+
+    #first{
+        display: none;
+    }
+    .banner h1{
+        text-align: center;
+        font-size: 25px;
+    }
+    .banner p{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .banner button{
+        text-align: center;
+        width: 40%;
+        display: block;
+        margin: 0px auto;
+    }
+    .txt{
+        top: 100px;
+        width: 100%;
+    	left: 0px;
+    	padding: 20px;
+    }
+    .logo-mobile{
+        display: block;
+        margin: 20px auto;
+    }
+
+    #first{
+        display: none!important;
+    }
+
+    .sec-menu ul{
+  		display: none;
+	}
+	.sec-menu a{
+		float: right;
+		display: block;
+	}
+	.sec-menu a i{
+		line-height: 35px;
+		font-size: 25px;
+		color: #fff;
+	}
+    #abt-novita{
+        padding: 0px;
+    }
+    #abt-novita p{
+        width: 100%;
+        text-align: justify;
+    }
+    .show-box{
+        height: 90px;
+    }
+    .showcase{
+        padding: 20px 0px 0px;
+    }
+    .works{
+        height: 120px;
+    }
+    .works img{
+        width: 100%;
+        height: auto;
+    }
+    .carousel{
+        height:auto;
+    }
+    .client-pic{
+        margin:0px auto;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .client-msg{
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .h-140{
+        height: 325px!important;
+    }
+    #creatives .carousel{
+        height: 1000px!important;
+    }
+    #abt-novita h3{
+        text-align: center;
+        display: block;
+        widows: 100%;
+        font-size: 25px;
+    }
+    #abt-novita p{
+        text-align: center;
+        display: block;
+        widows: 100%;
+        padding-top: 10px;
+    }
+    .showcase h2 {
+        text-align: center;
+        display: block;
+        widows: 100%;
+        font-size: 25px;
+    }
+    .showcase p{
+        text-align: center;
+        display: block;
+        widows: 100%;
+    }
+    .clients{
+        padding: 20px 0px;
+        text-align: center;
+    }
+    .clients h2{
+        text-align: center;
+        display: block;
+        widows: 100%;
+        font-size: 25px;
+    }
+    .clients h3{
+        text-align: center;
+        display: block;
+        widows: 100%;
+        font-size: 16px;
+    }
+    .clients i{
+        display: none;
+    }
+    .clients p{
+        text-align: center;
+        display: block;
+        widows: 100%;
+    }
+    .clients .carousel .indicators{
+        display: none;
+    }
+    .box-left{
+        padding: 20px;
+    }
+    .map{
+        display: none;
+    }
+    .works h5{
+        padding-top: 10%;
+    }
+    .works button{
+        width: 60px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .works button:hover{
+         width: 60px;
+         opacity: .8;
+         cursor: pointer;
+    }
+}
+
+
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .box{
+        float: none;
+        min-height: 140px;
+    }
+    .box2{
+        float: none;
+        min-height: 140px;
+    }
+    .box-over-lap{
+        display: none;
+    }
+
+    #first{
+        display: none;
+    }
+    .banner{
+        height: 100vh;
+        min-height: auto;
+    }
+    .banner h1{
+        text-align: center;
+        font-size: 25px;
+    }
+    .banner p{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .banner button{
+        text-align: center;
+        width: 40%;
+        display: block;
+        margin: 0px auto;
+    }
+    .txt{
+        top: 28%;
+        width: 100%;
+    	left: 0px;
+    	padding: 20px;
+    }
+    .logo-mobile{
+        display: block;
+        margin: 20px auto;
+    }
+
+    #first{
+        display: none!important;
+    }
+
+    .sec-menu ul{
+  		display: none;
+	}
+	.sec-menu a{
+		float: right;
+		display: block;
+	}
+	.sec-menu a i{
+		line-height: 35px;
+		font-size: 25px;
+		color: #fff;
+	}
+    #abt-novita{
+        padding: 0px;
+    }
+    #abt-novita p{
+        width: 100%;
+        text-align: justify;
+    }
+    .show-box{
+        height: 90px;
+    }
+    .showcase{
+        padding: 20px 0px 0px;
+    }
+    .works{
+        height: 100px;
+    }
+    .carousel{
+        height:auto;
+    }
+    .client-pic{
+        margin:0px auto;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .client-msg{
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .h-140{
+        height: 325px!important;
+    }
+    #creatives .carousel{
+        height: 1000px!important;
+    }
+    #abt-novita h3{
+        text-align: center;
+        display: block;
+        widows: 100%;
+        font-size: 25px;
+    }
+    #abt-novita p{
+        text-align: center;
+        display: block;
+        widows: 100%;
+        padding-top: 10px;
+    }
+    .showcase h2 {
+        text-align: center;
+        display: block;
+        widows: 100%;
+        font-size: 25px;
+    }
+    .showcase p{
+        text-align: center;
+        display: block;
+        widows: 100%;
+    }
+    .clients{
+        padding: 20px 0px;
+        text-align: center;
+    }
+    .clients h2{
+        text-align: center;
+        display: block;
+        widows: 100%;
+        font-size: 25px;
+    }
+    .clients h3{
+        text-align: center;
+        display: block;
+        widows: 100%;
+        font-size: 16px;
+    }
+    .clients i{
+        display: none;
+    }
+    .clients p{
+        text-align: center;
+        display: block;
+        widows: 100%;
+    }
+    .clients .carousel .indicators{
+        display: none;
+    }
+    .box-left{
+        padding: 20px;
+    }
+    .map{
+        display: none;
+    }
+    #particle-canvas{
+        height: 100vh;
+    }
+    .works h5{
+        padding-top: 10%;
+    }
+    .works button{
+        width: 60px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .works button:hover{
+         width: 60px;
+         opacity: .8;
+         cursor: pointer;
+    }
+    .w-detail .works{
+        height: 90px;
+    }
+    .over{display:none;}
+}
+    

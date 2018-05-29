@@ -1,0 +1,2 @@
+[08-Feb-2018 08:04:39 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/creotopipanel/public_html/nowitainteriors/wp-content/themes/twentysixteen/single.php on line 10
+[08-Feb-2018 08:04:40 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/creotopipanel/public_html/nowitainteriors/wp-content/themes/twentysixteen/single.php on line 10
